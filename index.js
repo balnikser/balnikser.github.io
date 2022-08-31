@@ -87,7 +87,7 @@ class App{
         this.draw();
     }
     draw(){
-        var text = '────┌──┬──┬──┐────\n────│' 
+        var text = '────┌─┬─┬─┐────\n────│' 
                    + this.field.get(this.fromPosition([0, 2]))
                    + '│'
                    + this.field.get(this.fromPosition([1, 2]))
